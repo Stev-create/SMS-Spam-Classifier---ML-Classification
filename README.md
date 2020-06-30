@@ -28,5 +28,18 @@ Sedangkan untuk SMS ham:
 
 ![GitHub Logo](/images/4.png)
 
-Dari gambaran di atas juga dapat dilihat, kalau SMS-SMS ham lebih berbau ajakan atau lebih mengarah ke 'menang-menang undian'. Sedangkan ham, seperti yang tadi sudah dikatakan, kata-katanya lebih mengarah ke pesan singkat. Itu kenapa banyak kata-kata singkatan. 
+Menariknya, kita dapat melihat kalau SMS-SMS ham lebih berbau ajakan atau lebih mengarah ke seolah-olah yang mendapatkan pesan menang undian. Sedangkan ham, seperti yang tadi sudah dikatakan, kata-katanya lebih mengarah ke pesan singkat. Itu kenapa banyak kata-kata singkatan. 
+
+### Evaluation Metrics
+
+| Classifier  | Accuracy |
+| ------------- | ------------- |
+| Multinominal Naive Bayes  | 0.97  |
+| XGBoost Classifier  | 0.96  |
+
+Dapat dilihat bahwa, Multinominal Naive Bayes lebih baik dari XGBoost. Saya pikir tidak perlu mencari model lain, mengingat kedua model ini sudah memiliki akurasi yang tinggi. 
+
+
+
+
 
