@@ -33,7 +33,7 @@ Menariknya, kita dapat melihat kalau SMS-SMS ham lebih berbau ajakan atau lebih 
 ### Evaluation Metrics
 
 | Classifier  | Accuracy |
-| ------------- | ------------- |
+| :---: | :---: |
 | Multinominal Naive Bayes  | 0.97  |
 | XGBoost Classifier  | 0.96  |
 
