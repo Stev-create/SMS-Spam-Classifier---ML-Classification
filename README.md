@@ -18,7 +18,7 @@ Pada eksplorasi data, kita seharusnya sudah dapat <i>insight</i> dan tahu bagaim
 
 ![GitHub Logo](/images/2.png)
 
-### Wordcloud 
+### Words Cloud
 
 WordCloud juga menunjukkan <i>insight</i> yang menarik, untuk SMS spam:
 
