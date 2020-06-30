@@ -6,4 +6,6 @@
 
 ## Overview
 
-<p>Project ini bertujuan untuk membuat model yang dapat menentukan mana SMS spam dan mana SMS ham. Kemudian di project ini, saya akan mengevaluasi dua model, yaitu Multinomial Naive Bayes dan Xtreme Gradient Boosting Classifier. Kemudian model terbaik dipilih berdasarkan dari akurasi terbaik.
+<p>Project ini bertujuan untuk membuat model yang dapat menentukan mana SMS spam dan mana SMS ham. Kemudian di project ini, saya akan mengevaluasi dua model, yaitu <b>Multinomial Naive Bayes dan Xtreme Gradient Boosting Classifier.</b> Kemudian model terbaik dipilih berdasarkan dari akurasi terbaik.
+
+## Results
