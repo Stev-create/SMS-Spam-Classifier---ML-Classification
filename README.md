@@ -12,7 +12,7 @@
 
 ### EDA
 
-Pada eksplorasi data, kita seharusnya sudah dapat <i>insight</i> dan tahu bagaimana model akan membedakan mana SMS ham dan spam. Karena jumlah kata dan karakter umumnya ham lebih panjang atau banyak daripada spam. Mengingat kebanyakan SMS spam adalah pesan-pesan yang mengarah ke seolah-olah menang undian atau sesuatu yang penting. Sedangkan SMS ham biasanya lebih mengarah ke perbincangan yang lebih ke pesan singkat. 
+Pada eksplorasi data, kita seharusnya sudah mendapatkan <i>insight</i>-nya dan tahu bagaimana model akan membedakan mana SMS ham dan spam. Karena jumlah kata dan karakter umumnya ham lebih panjang atau banyak daripada spam. Mengingat kebanyakan SMS spam adalah pesan-pesan yang mengarah ke seolah-olah menang undian atau sesuatu yang penting. Sedangkan SMS ham biasanya lebih mengarah ke perbincangan yang lebih ke pesan singkat. 
 
 ![GitHub Logo](/images/1.png)
 
@@ -28,7 +28,7 @@ Sedangkan untuk SMS ham:
 
 ![GitHub Logo](/images/4.png)
 
-Menariknya, kita dapat melihat kalau SMS-SMS ham lebih berbau ajakan atau lebih mengarah ke seolah-olah yang mendapatkan pesan menang undian. Sedangkan ham, seperti yang tadi sudah dikatakan, kata-katanya lebih mengarah ke pesan singkat. Itu kenapa banyak kata-kata singkatan. 
+<b>Insight</b> : Dari visualisai di atas, kita dapat melihat kalau SMS-SMS ham lebih berbau ajakan atau lebih mengarah ke seolah-olah yang mendapatkan pesan menang undian. Sedangkan ham, seperti yang tadi sudah dikatakan, kata-katanya lebih mengarah ke pesan singkat. Itu kenapa banyak kata-kata singkatan. 
 
 ### Evaluation Metrics
 
@@ -38,6 +38,8 @@ Menariknya, kita dapat melihat kalau SMS-SMS ham lebih berbau ajakan atau lebih 
 | XGBoost Classifier  | 0.96  |
 
 Dapat dilihat bahwa, Multinominal Naive Bayes lebih baik dari XGBoost. Dan saya pikir tidak perlu lagi mencari model lainnya, mengingat kedua model ini sudah memiliki akurasi yang tinggi. Kemudian pada akhirnya, saya juga melakukan <i>sanity check</i> menggunakan Multinominal Naive Bayes yang dapat dilihat di [notebook ini](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
+
+
 
 
 
