@@ -6,7 +6,7 @@
 
 ## Overview
 
-<p>Project ini bertujuan untuk membuat model yang dapat menentukan mana SMS spam dan mana SMS ham. Kemudian di project ini juga, akan mengevaluasi dua model yaitu <b>Multinomial Naive Bayes dan Xtreme Gradient Boosting Classifier.</b> Kemudian model terbaik dipilih berdasarkan dari akurasi terbaik. Ringkasan hasil terdapat di bawah ini, namun untuk lebih lengkapnya dapat dilihat di [notebook ini.](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb)
+<p>Project ini bertujuan untuk membuat model yang dapat menentukan mana SMS spam dan mana SMS ham. Kemudian di project ini juga, akan mengevaluasi dua model yaitu <b>Multinomial Naive Bayes dan Xtreme Gradient Boosting Classifier.</b> Kemudian model terbaik dipilih berdasarkan dari akurasi terbaik. Ringkasan hasil terdapat di bawah ini, namun untuk lebih lengkapnya dapat dilihat di [notebook ini](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
 
 ## Results
 
