@@ -6,7 +6,7 @@
 
 ## Overview
 
-Project ini bertujuan untuk membangun model yang dapat menentukan mana SMS spam dan mana SMS ham. Kemudian di project ini juga, akan mengevaluasi dua model yaitu <b>Multinomial Naive Bayes dan Xtreme Gradient Boosting Classifier.</b> Kemudian model terbaik dipilih berdasarkan dari recall terbaik. Ringkasan hasil terdapat di bawah ini, namun untuk lebih lengkapnya dapat dilihat di [notebook ini](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
+Project ini bertujuan untuk membangun model yang dapat menentukan mana SMS spam dan mana SMS ham. Kemudian di project ini juga, akan mengevaluasi dua model yaitu <b>Multinomial Naive Bayes dan Xtreme Gradient Boosting Classifier.</b> Kemudian model terbaik dipilih berdasarkan dari precision terbaik. Ringkasan hasil terdapat di bawah ini, namun untuk lebih lengkapnya dapat dilihat di [notebook ini](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
 
 
 ## Summary
@@ -33,12 +33,12 @@ Sedangkan untuk SMS ham:
 
 ### Evaluation Metrics
 
-| Classifier  | recall (pos label = 1)| recall (pos label = 0) |
+| Classifier  | precision (pos label = 1)| precision (pos label = 0) |
 | :---: | :---: | :--: |
-| Multinominal Naive Bayes  | 1.00  | 0.80 |
-| XGBoost Classifier  | 0.99  | 0.74 |
+| Multinominal Naive Bayes  | 0.98  | 0.98 |
+| XGBoost Classifier  | 0.92  | 0.97 |
 
-label = 1 untuk label ham dan label = 0 untuk label spam
+label = 1 untuk label spam dan label = 0 untuk label ham
 
 Dapat dilihat bahwa, Multinominal Naive Bayes lebih baik dari XGBoost. Dan saya pikir tidak perlu lagi mencari model lainnya, mengingat kedua model ini sudah memiliki skor-skor yang tinggi. Kemudian pada akhirnya, saya juga melakukan <i>sanity check</i> menggunakan Multinominal Naive Bayes yang dapat dilihat di [notebook ini](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
 
