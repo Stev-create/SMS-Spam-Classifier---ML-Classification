@@ -19,6 +19,14 @@ Pada eksplorasi data, kita seharusnya sudah mendapatkan <b>insight</b>-nya dan t
 
 ![GitHub Logo](/images/b.png)
 
+Dari Hypothesis Testing menggunakan Mann-Whitney U Test yang dilakukan juga sependapat, bahwa adanya perbedaan yang signifikan secara statistik di antara keduanya. 
+
+|   | Hypothesis | 
+| :---: | :---: |
+| length  | Reject Null Hypothesis  | 
+| words | Reject Null Hypothesis | 
+
+
 ### Words Cloud
 
 WordCloud juga menunjukkan <i>insight</i> yang menarik, untuk SMS spam:
