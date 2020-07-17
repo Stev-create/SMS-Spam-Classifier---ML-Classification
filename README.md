@@ -13,7 +13,7 @@ Project ini bertujuan untuk membangun model yang dapat menentukan mana SMS spam 
 
 ### Exploratory Data Analysis
 
-Pada eksplorasi data, kita seharusnya sudah mendapatkan <b>insight</b>-nya dan tahu bagaimana caranya model akan membedakan mana SMS ham dan spam. Karena dari visualisasi di bawah misalnya, ternyata jumlah kata dan karakter umumnya ham lebih panjang atau banyak daripada spam. Dan ini masuk akal, mengingat kebanyakan SMS spam adalah pesan-pesan yang mengarah ke seolah-olah menang undian atau sesuatu yang penting. Sedangkan SMS ham biasanya lebih mengarah ke perbincangan yang lebih ke pesan singkat. 
+Pada eksplorasi data, kita seharusnya sudah mendapatkan <b>insight</b>-nya dan tahu bagaimana caranya model akan membedakan mana SMS ham dan spam. Karena dari visualisasi di bawah dapat dilihat, bahwa pada umumnya, jumlah kata dan karakter untuk SMS ham lebih panjang atau banyak daripada SMS spam. Dan ini masuk akal, mengingat kebanyakan SMS spam adalah pesan-pesan yang mengarah ke seolah-olah menang undian atau sesuatu yang penting. Sedangkan SMS ham biasanya lebih mengarah ke perbincangan yang lebih ke pesan singkat. 
 
 ![GitHub Logo](/images/c.png)
 
