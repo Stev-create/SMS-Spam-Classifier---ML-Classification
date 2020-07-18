@@ -6,7 +6,7 @@
 
 ## Overview
 
-In this Project, I use Machine Learning Approach to classify SMS Messages in SPAM or in HAM. Where <b>Multinominal Naive Bayes and XGBoost Classifier Model</b> has been used in this Project. And the Best Model Based on Precision. A summary results can be seen below, but for details can be seen in [this notebook](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
+In this Project, I use Machine Learning Approach to classify SMS Messages in Spam or in Ham. Where <b>Multinominal Naive Bayes and XGBoost Classifier Model</b> has been used in this Project. And the Best Model Based on Precision. A summary results can be seen below, but for details can be seen in [this notebook](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
 
 ## Summary
 
