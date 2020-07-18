@@ -6,49 +6,55 @@
 
 ## Overview
 
-Project ini bertujuan untuk membangun model yang dapat menentukan mana SMS spam dan mana SMS ham. Kemudian di project ini juga, akan mengevaluasi dua model yaitu <b>Multinomial Naive Bayes dan Xtreme Gradient Boosting Classifier.</b> Kemudian model terbaik dipilih berdasarkan dari precision terbaik. Ringkasan hasil terdapat di bawah ini, namun untuk lebih lengkapnya dapat dilihat di [notebook ini](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
-
+In this Project, I use Machine Learning Approach to classify SMS Messages in SPAM or in HAM. Where <b>Multinominal Naive Bayes and XGBoost Classifier Model</b> has been used in this Project. And the Best Model Based on Precision. A summary results can be seen below, but for details can be seen in [this notebook](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
 
 ## Summary
 
 ### Exploratory Data Analysis
 
-Pada eksplorasi data, kita seharusnya sudah mendapatkan <b>insight</b>-nya dan tahu bagaimana caranya model akan membedakan mana SMS ham dan spam. Karena dari visualisasi di bawah dapat dilihat, bahwa pada umumnya, jumlah kata dan karakter untuk SMS ham lebih panjang atau banyak daripada SMS spam. Dan ini masuk akal, mengingat kebanyakan SMS spam adalah pesan-pesan yang mengarah ke seolah-olah menang undian atau sesuatu yang penting. Sedangkan SMS ham biasanya lebih mengarah ke perbincangan yang lebih ke pesan singkat. 
+In exploration, we should know how our model will classify Spam Messages and Ham Messages. As we can see below, spam messages tend to have longer length than ham messages. And I think, its make sense, spam messages usually is about 'fake' winning lottery messages or fake messages that are considered important. At the same time, ham messages is usualy an instant messages with many slang abbreviation. 
 
 ![GitHub Logo](/images/c.png)
 
 ![GitHub Logo](/images/d.png)
 
-Kemudian dari hasil Hypothesis Testing dengan <b>Mann-Whitney U Test</b>, bahwa adanya perbedaan yang signifikan secara statistik di antara keduanya. 
+
+## Statistical Analysis
+
+After that, I want to know is it significance? So I perform Normality Test using Shapiro-Wilk Test and Significance Test using Mann-Whitney U Test. The results of Mann-Whitney U Test can be seen below.
 
 |   | Hypothesis | 
 | :---: | :---: |
 | length  | Reject Null Hypothesis  | 
 | words | Reject Null Hypothesis | 
 
-
 ### Words Cloud
 
-WordCloud juga menunjukkan <i>insight</i> yang menarik, untuk SMS spam:
+At last, I want to know, what words are often appear in ham or spam messages. So I need to visualize it, using WordCloud. The Word Cloud of Spam Messages:
 
 ![GitHub Logo](/images/3.png)
 
-Sedangkan untuk SMS ham:
+As expected, words that many often in the spam messages is <i>free, have won, text, please call, </i> and <i> reply </i>. Like the one who get the messages win lottery or something and feel like an invitation to do something. And Word Cloud of Ham Messages:
 
 ![GitHub Logo](/images/4.png)
 
-<b>Insight</b> : Dari visualisai di atas, kita dapat melihat kalau SMS-SMS ham lebih berbau ajakan atau lebih mengarah ke seolah-olah yang mendapatkan pesan menang undian. Sedangkan ham, seperti yang tadi sudah dikatakan, kata-katanya lebih mengarah ke pesan singkat. Itu kenapa banyak kata-kata singkatan. 
+Well, its same as we expected right? Many slang abbreviation.
+
 
 ### Evaluation Metrics
+
+This dataset can be considered as a highly imbalanced. So we need to careful to pick what evaluation metric we'll use. And i want my model have low False Positive numbers. That's why my objective is to have a model with high precision score.
 
 | Classifier  | precision (pos label = 1)| precision (pos label = 0) |
 | :---: | :---: | :--: |
 | Multinominal Naive Bayes  | 0.98  | 0.98 |
 | XGBoost Classifier  | 0.92  | 0.97 |
 
-label = 1 untuk label spam dan label = 0 untuk label ham
+label = 1 --> spam <br> 
+label = 0 --> ham
 
-Dapat dilihat bahwa, Multinominal Naive Bayes lebih baik dari XGBoost. Dan saya pikir tidak perlu lagi mencari model lainnya, mengingat kedua model ini sudah memiliki skor-skor yang tinggi. Kemudian pada akhirnya, saya juga melakukan <i>sanity check</i> menggunakan Multinominal Naive Bayes yang dapat dilihat di [notebook ini](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
+if we look again in EDA Part, it is not surprising to see both models working so well in classify the spam messages and ham messages. Even without a model, just use a simple visualization, we can predict where the spam messages and where the ham messages. So, the Multinominal Naive Bayes work better than XGBoost. To see the sanity check, check [this notebook](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
+
 
 
 
