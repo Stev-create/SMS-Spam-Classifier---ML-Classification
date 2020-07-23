@@ -55,9 +55,9 @@ This dataset can be considered as a highly imbalanced. So we need to careful to 
 label = 1 --> spam <br> 
 label = 0 --> ham
 
-if we look again in EDA Part, it is not surprising to see both models working so well in classify the spam messages and ham messages. Even without a model, just use a simple visualization, we can predict where the spam messages and where the ham messages. So, the Multinominal Naive Bayes work better than XGBoost. To see the sanity check, check [this notebook](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
+if we look again in EDA Part, it is not surprising to see both models working so well in classify the spam messages and ham messages. Even without a model, just use a simple visualization, we can predict where the spam messages and where the ham messages. So, the Multinominal Naive Bayes work better than XGBoost. To see the sanity check, check out [this notebook](https://github.com/Stev-create/SMS-Spam-Classifier---ML-Text-Classification/blob/master/SMS%20Spam%20Classifier.ipynb).
 
-
+# Thank you
 
 
 
